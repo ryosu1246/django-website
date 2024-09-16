@@ -23,11 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-z#85z4d=^pwmj2ce^ia)^$u6d7qz^)tnv3#d)g1ma@zdh#-fm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    "*",
-    '.vercel.app'
+    "d-site.ichiru-net.com",
 ]
 
 
